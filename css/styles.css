@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+html { 
+  	background: url(../image/bg-25.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 850px !important; 
+	margin: 0px;	
+	padding: 0px;
+}
+body { height: 990px !important; min-height: 850px !important; margin-top: 29px;}
+#tile {	background: url(../image/Originals/background.png) no-repeat right bottom scroll;	width: 100%;	min-height: 99.9%;	height: 99.9%;	clear:none;	margin: 0px;	padding: 0px; padding-top: 29px;}
+p {	margin-bottom: 8px;}
+#my-music {	width: 400px;	margin: 10px auto;	background: #f22fad;	text-align: center;	z-index: 1002;	-moz-box-shadow: 5px 5px 2px #333;	-webkit-box-shadow: 5px 5px 2px #333;	box-shadow: 5px 5px 2px #333;	border-radius: 4px;	-moz-border-radius: 4px;}
+.addthis_toolbox {	width: 244px;	padding: 5px;	margin: 10px auto;	background: #000;	border: 3px solid #000;	text-align: center;	z-index: 1002;	-moz-box-shadow: 5px 5px 2px #333;	-webkit-box-shadow: 5px 5px 2px #333;	box-shadow: 5px 5px 2px #333;	margin-bottom: 9px;	border-radius: 6px;	-moz-border-radius: 6px;}
+
+#title {	font-size: 2.52em;}
+
+#subtitle {	font-size: 1.82em;}
+#ident {	
+	opacity:0.83; 	
+	filter:alpha(opacity=83); /* For IE8 and earlier */"
+	font-weight: 800;
+	margin: 35px auto;
+	border: 15px solid #111;
+	border-radius: 27px;
+	-moz-border-radius: 27px;
+	text-shadow: 5px 5px 5px #235154;
+	font-size: 1.04em;
+	text-align: center;
+	padding: 15px;
+	-moz-box-shadow: 10px 10px 5px #000;
+	-webkit-box-shadow: 10px 10px 5px #000;
+	box-shadow: 10px 10px 5px #000;
+	clear: none;
+}
+
+#ident img {	margin-top:5px;	margin-bottom:5px; width:72% }
+
+#ident a {
+	z-index: 1001;
+	font-weight: 500;
+	font-size: 1.25em;
+	margin-left: 10px;
+	margin-right: 0px;
+}

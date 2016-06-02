@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----RainEffect[Start]----*/
+body { margin:0; padding:0; }
+.rain { width:100%; overflow-x:hidden; }
+.rain .drop { display: block; z-index:0; position: absolute; background-repeat: no-repeat; min-width:2px; min-height:4px;
+background:#E7F4FA;
+background: -moz-linear-gradient(top, #25A3DE, #E7F4FA);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#25A3DE), to(#E7F4FA));
+background: -webkit-linear-gradient(top, #25A3DE, #E7F4FA);
+background: -ms-linear-gradient(top, #25A3DE, #E7F4FA);
+background: -o-linear-gradient(top, #25A3DE, #E7F4FA);
+border-radius: 50% 50% 50% 50%/80% 80% 20% 20%;
+-moz-border-radius: 50% 50% 50% 50%/90% 90% 10% 10%;
+-webkit-border-radius:63px 63px 63px 63px/138px 138px 42px 42px;
+}
+.rain .lighting_effect { position:absolute; left:0; top:0; width:1000px; height:562px; background:url(images/lighting_bg.png) no-repeat; opacity:0; }
+.rain .lighting_effect.right { left:inherit; right:0; transform: rotate(-90deg); -ms-transform:rotate(-90deg); -moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); }
+/*-----RainEffect[End]----*/
+/*-----SnowEffect[Start]----*/
+.snow { width:100%; overflow-x:hidden; background-image:url(images/snow_bg.jpg); background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;  }
+.snow .drop { display: block; z-index:0; position:fixed; background-repeat: no-repeat; min-width:2px; min-height:2px;
+border-radius: 180px;
+-moz-border-radius: 180px;
+-webkit-border-radius: 180px;
+background:#fff;
+background: -moz-linear-gradient(top, #fff, #eee);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+background: -webkit-linear-gradient(top, #fff, #eee);
+background: -ms-linear-gradient(top, #fff, #eee);
+background: -o-linear-gradient(top, #fff, #eee);
+box-shadow:0 0 5px #fff;
+-moz-box-shadow:0 0 5px #fff;
+-webkit-box-shadow:0 0 5px #fff; }
+/*-----SnowEffect[End]----*/
+/*-----BalloonEffect[Start]----*/
+.balloon { width:100%; overflow-x:hidden; background-image:url(images/balloon_bg.jpg); background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;  }
+.balloon .drop { display: block; z-index:0; position: absolute; background-repeat: no-repeat; min-width:2px; min-height:2px;
+border-radius: 180px;
+-moz-border-radius: 180px;
+-webkit-border-radius: 180px;
+border:solid 1px #fff;
+}
+/*-----BalloonEffect[End]----*/
