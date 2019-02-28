@@ -54,6 +54,7 @@
         $files = array();
         foreach($audio as $mp3)
             $files[] = $mp3['file'];
+        shuffle($files); shuffle($files); shuffle($files); shuffle($files); shuffle($files);
         define("AUDIO_MP3", API_URL . '/uploads/mp3/' . $files[mt_rand(0, count($files)-1)]);
     }
     
@@ -62,6 +63,7 @@
         $files = array();
         foreach($audio as $mp3)
             $files[] = $mp3['file'];
+        shuffle($files); shuffle($files); shuffle($files); shuffle($files); shuffle($files);
         define("AUDIO_MP3", API_URL . '/assets/mp3/' . $files[mt_rand(0, count($files)-1)]);
     }
     
@@ -70,6 +72,7 @@
         $files = array();
         foreach($backgrounds as $image)
             $files[] = $image['file'];
+        shuffle($files); shuffle($files); shuffle($files); shuffle($files); shuffle($files);
         define("BACKGROUND_IMAGE", API_URL . '/uploads/backgrounds/' . $files[mt_rand(0, count($files)-1)]);
     }
     
@@ -78,6 +81,7 @@
         $files = array();
         foreach($backgrounds as $image)
             $files[] = $image['file'];
+        shuffle($files); shuffle($files); shuffle($files); shuffle($files); shuffle($files);
         define("BACKGROUND_IMAGE", API_URL . '/assets/images/backgrounds/' . $files[mt_rand(0, count($files)-1)]);
     }
     
